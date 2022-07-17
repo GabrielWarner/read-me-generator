@@ -49,7 +49,7 @@ const questions = [
     {
         message: "Enter email: ",
         type: "input",
-        name: "githubUsername"
+        name: "email"
     },
 ];
 
