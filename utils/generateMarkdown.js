@@ -14,30 +14,43 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   const {fileName, description, installInstructions, usageInformation, contributionGuidelines, testInstructions, license, githubUsername, email} = data
   return `# ${fileName}
+
 ## Description
+
 ${description}
+
 ## Table of Contents
-* Installation
-* Usage
-* License
-* Usage
-* License
-* Contributions
-* Test Instructions
-* Questions
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Test Instructions](#test-instructions)
+- [Questions](#questions)
 ## Installation
+
 ${installInstructions}
+
 ## Usage
+
 ${usageInformation}
+
 ## License
+
 ${license}
+
 ## Contributions
+
 ${contributionGuidelines}
+
 ## Test Instructions
+
 ${testInstructions}
+
 ## Questions
-${githubUsername}
-${email}
+
+https://github.com/${githubUsername}
+For questions or business inquirys, please contact me through email: ${email}
 `;
 }
 
