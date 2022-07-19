@@ -92,9 +92,9 @@ ${contributionGuidelines}
 
 To run tests, run the following command: 
 
-
-> ${testInstructions}
-
+\`\`\`md
+${testInstructions}
+\`\`\`
 
 ## Questions
 
