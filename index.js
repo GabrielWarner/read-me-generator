@@ -3,7 +3,7 @@ const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown")
 const fs = require("fs")
 // TODO: Create an array of questions for user input
-const licenses = ["English", "Spanish", "Chinese", "Japanese"]
+
 const questions = [
     {
         message: "Enter project title: ",
@@ -39,7 +39,7 @@ const questions = [
         message: "Choose license: ",
         type: "list",
         name: "license",
-        choices: (licenses)
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
     },
     {
         message: "Enter github username: ",
