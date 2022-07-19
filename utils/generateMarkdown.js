@@ -92,13 +92,14 @@ ${contributionGuidelines}
 
 To run tests, run the following command: 
 
-```md
-${testInstructions}
-```
+
+> ${testInstructions}
+
 
 ## Questions
 
 https://github.com/${githubUsername}
+
 For questions or business inquirys, please contact me through email: ${email}
 `;
 }
