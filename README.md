@@ -1,9 +1,9 @@
-# my first project
+# Read Me Generator
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 
 ## Description
-something cool
+In this challenge I created a node CLI to ask a user different questions about a project they want to create a read me for. Once the application is done running the app outputs a .md file with the name of their project as the file name.
 
 ## Table of Contents
 
@@ -15,17 +15,17 @@ something cool
 - [Questions](#questions)
 ## Installation
 
-none really
+node index.js
 
 ## Usage
 
-carefully
+none
 
 ## License
 
-This project is licensed under the GPL 3.0 license.
 
-https://www.gnu.org/licenses/gpl-3.0
+
+
 
 ## Contributions
 
@@ -35,12 +35,12 @@ none
 
 To run tests, run the following command: 
 
-
-> npm init
-
+```md
+node index.js
+```
 
 ## Questions
 
 https://github.com/gabrielwarner
 
-For questions or business inquirys, please contact me through email: kixgabe@gmail.com
+For questions or business inquirys, please contact me through email: gabe0412@uw.edu
