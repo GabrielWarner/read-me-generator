@@ -1,14 +1,9 @@
-# Read Me Generator
+# README
 
 
 
 ## Description
-In this challenge I created a node CLI to ask a user different questions about a project they want to create a read me for. Once the application is done running the app outputs a .md file with the name of their project as the file name.
-
-link to video of working application: https://drive.google.com/file/d/15SWIjPLCpeEIkH9Z1RKMOWidlgn6ZD-h/view
-
-![readmegenerator](https://user-images.githubusercontent.com/98490756/179881436-74253c95-4541-482a-ba84-a2cf0836a1fb.JPG)
-
+In this application created various express server routes to post, get and delete. I used imported uuid and a helpers js file to help me complete this assignment and limit the amount of code I had to write.
 
 ## Table of Contents
 
@@ -20,7 +15,7 @@ link to video of working application: https://drive.google.com/file/d/15SWIjPLCp
 - [Questions](#questions)
 ## Installation
 
-run the command node index.js
+none
 
 ## Usage
 
@@ -39,6 +34,10 @@ none
 ## Test Instructions
 
 To run tests, run the following command: 
+
+```md
+none
+```
 
 ## Questions
 
